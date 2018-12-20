@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Template_invulformulier</title>
+  </head>
+  
+  <body>
+<style>
+
+.titel{
+    font-size: 1.5em;
+
+}
+.lijsta{
+    list-style-type: none;
+    background-color: grey}
+
+progress{
+    height: 2em;
+    width: 20em}
+
+.onderdeel {background-color: grey;
+            border: 10px;
+            border-color:black;
+            padding:20px;
+            width: 400px;
+            border-radius:20px;
+            margin:5px;
+}
+.wit    {color:white;}
+
+.wrapper{
+        display:grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-column-gap: 20px;
+        grid-row-gap:20px;
+        }
+
+
+
+</style>
+
+<div class="wrapper">
+    <div class="onderdeel">
+        <div class="titel">Voortgang in<br/> 
+            <div class="wit">HTML</div></div>
+            <ul class="lijsta">
+                    <li>10pt <input type="checkbox"/> Lezen </li>
+                    <li>10pt <input type="checkbox"/> Begrijpen </li>
+                    <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                    <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                    <li>20pt <input type="checkbox"/> Docent</li>
+            </ul>
+            <form>Vul het totaal aantal punten in:<br>
+                <input type="text" name="resultaat">
+            </form>
+            <br/>
+            <Progress min="0" max="100" value="10">
+            </Progress>
+    </div>
+
+    <div class="onderdeel">
+            <div class="titel">Voortgang in<br/> 
+                <div class="wit">CSS</div></div>
+                <ul class="lijsta">
+                        <li>10pt <input type="checkbox"/> Lezen </li>
+                        <li>10pt <input type="checkbox"/> Begrijpen </li>
+                        <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                        <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                        <li>20pt <input type="checkbox"/> Docent</li>
+                </ul>
+                <form>Vul het totaal aantal punten in:<br>
+                    <input type="text" name="resultaat">
+                </form>
+                <br/>
+                <Progress min="0" max="100" value="10">
+                </Progress>
+            </div>
+
+        <div class="onderdeel">
+                <div class="titel">Voortgang in<br/> 
+                    <div class="wit">Bootstrap</div></div>
+                    <ul class="lijsta">
+                            <li>10pt <input type="checkbox"/> Lezen </li>
+                            <li>10pt <input type="checkbox"/> Begrijpen </li>
+                            <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                            <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                            <li>20pt <input type="checkbox"/> Docent</li>
+                    </ul>
+                    <form>Vul het totaal aantal punten in:<br>
+                        <input type="text" name="resultaat">
+                    </form>
+                    <br/>
+                    <Progress min="0" max="100" value="10">
+                    </Progress>
+            </div>
+
+            <div class="onderdeel">
+                    <div class="titel">Voortgang in<br/> 
+                        <div class="wit">JavaScript</div></div>
+                        <ul class="lijsta">
+                                <li>10pt <input type="checkbox"/> Lezen </li>
+                                <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                <li>20pt <input type="checkbox"/> Docent</li>
+                        </ul>
+                        <form>Vul het totaal aantal punten in:<br>
+                            <input type="text" name="resultaat">
+                        </form>
+                        <br/>
+                        <Progress min="0" max="100" value="10">
+                        </Progress>
+                </div>
+
+                <div class="onderdeel">
+                        <div class="titel">Voortgang in<br/> 
+                            <div class="wit">PHP</div></div>
+                            <ul class="lijsta">
+                                    <li>10pt <input type="checkbox"/> Lezen </li>
+                                    <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                    <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                    <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                    <li>20pt <input type="checkbox"/> Docent</li>
+                            </ul>
+                            <form>Vul het totaal aantal punten in:<br>
+                                <input type="text" name="resultaat">
+                            </form>
+                            <br/>
+                            <Progress min="0" max="100" value="10">
+                            </Progress>
+                    </div>
+                    <div class="onderdeel">
+                            <div class="titel">Voortgang in<br/> 
+                                <div class="wit">Laravel</div></div>
+                                <ul class="lijsta">
+                                        <li>10pt <input type="checkbox"/> Lezen </li>
+                                        <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                        <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                        <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                        <li>20pt <input type="checkbox"/> Docent</li>
+                                </ul>
+                                <form>Vul het totaal aantal punten in:<br>
+                                    <input type="text" name="resultaat">
+                                </form>
+                                <br/>
+                                <Progress min="0" max="100" value="10">
+                                </Progress>
+                        </div>
+                    
+                        <div class="onderdeel">
+                                <div class="titel">Voortgang in<br/> 
+                                    <div class="wit">MySQL</div></div>
+                                    <ul class="lijsta">
+                                            <li>10pt <input type="checkbox"/> Lezen </li>
+                                            <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                            <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                            <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                            <li>20pt <input type="checkbox"/> Docent</li>
+                                    </ul>
+                                    <form>Vul het totaal aantal punten in:<br>
+                                        <input type="text" name="resultaat">
+                                    </form>
+                                    <br/>
+                                    <Progress min="0" max="100" value="10">
+                                    </Progress>
+                            </div>
+                    
+                            <div class="onderdeel">
+                                    <div class="titel">Voortgang in<br/> 
+                                        <div class="wit">Linux</div></div>
+                                        <ul class="lijsta">
+                                                <li>10pt <input type="checkbox"/> Lezen </li>
+                                                <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                <li>20pt <input type="checkbox"/> Docent</li>
+                                        </ul>
+                                        <form>Vul het totaal aantal punten in:<br>
+                                            <input type="text" name="resultaat">
+                                        </form>
+                                        <br/>
+                                        <Progress min="0" max="100" value="10">
+                                        </Progress>
+                                </div>
+                    
+                                <div class="onderdeel">
+                                        <div class="titel">Voortgang in<br/> 
+                                            <div class="wit">Scrum</div></div>
+                                            <ul class="lijsta">
+                                                    <li>10pt <input type="checkbox"/> Lezen </li>
+                                                    <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                    <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                    <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                    <li>20pt <input type="checkbox"/> Docent</li>
+                                            </ul>
+                                            <form>Vul het totaal aantal punten in:<br>
+                                                <input type="text" name="resultaat">
+                                            </form>
+                                            <br/>
+                                            <Progress min="0" max="100" value="10">
+                                            </Progress>
+                                    </div>
+                    
+                                    <div class="onderdeel">
+                                            <div class="titel">Voortgang in<br/> 
+                                                <div class="wit">IDE</div></div>
+                                                <ul class="lijsta">
+                                                        <li>10pt <input type="checkbox"/> Lezen </li>
+                                                        <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                        <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                        <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                        <li>20pt <input type="checkbox"/> Docent</li>
+                                                </ul>
+                                                <form>Vul het totaal aantal punten in:<br>
+                                                    <input type="text" name="resultaat">
+                                                </form>
+                                                <br/>
+                                                <Progress min="0" max="100" value="10">
+                                                </Progress>
+                                        </div>
+                                        <div class="onderdeel">
+                                                <div class="titel">Voortgang in<br/> 
+                                                    <div class="wit">Version Control</div></div>
+                                                    <ul class="lijsta">
+                                                            <li>10pt <input type="checkbox"/> Lezen </li>
+                                                            <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                            <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                            <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                            <li>20pt <input type="checkbox"/> Docent</li>
+                                                    </ul>
+                                                    <form>Vul het totaal aantal punten in:<br>
+                                                        <input type="text" name="resultaat">
+                                                    </form>
+                                                    <br/>
+                                                    <Progress min="0" max="100" value="10">
+                                                    </Progress>
+                                            </div>
+                                        
+                                            <div class="onderdeel">
+                                                    <div class="titel">Voortgang in<br/> 
+                                                        <div class="wit">Cloud Deployment</div></div>
+                                                        <ul class="lijsta">
+                                                                <li>10pt <input type="checkbox"/> Lezen </li>
+                                                                <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                                <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                                <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                                <li>20pt <input type="checkbox"/> Docent</li>
+                                                        </ul>
+                                                        <form>Vul het totaal aantal punten in:<br>
+                                                            <input type="text" name="resultaat">
+                                                        </form>
+                                                        <br/>
+                                                        <Progress min="0" max="100" value="10">
+                                                        </Progress>
+                                                </div>
+                                        
+                                                <div class="onderdeel">
+                                                        <div class="titel">Voortgang in<br/> 
+                                                            <div class="wit">OWASP websecurity</div></div>
+                                                            <ul class="lijsta">
+                                                                    <li>10pt <input type="checkbox"/> Lezen </li>
+                                                                    <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                                    <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                                    <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                                    <li>20pt <input type="checkbox"/> Docent</li>
+                                                            </ul>
+                                                            <form>Vul het totaal aantal punten in:<br>
+                                                                <input type="text" name="resultaat">
+                                                            </form>
+                                                            <br/>
+                                                            <Progress min="0" max="100" value="10">
+                                                            </Progress>
+                                                    </div>
+                                        
+                                                    <div class="onderdeel">
+                                                            <div class="titel">Voortgang in<br/> 
+                                                                <div class="wit">Self improvement</div></div>
+                                                                <ul class="lijsta">
+                                                                        <li>10pt <input type="checkbox"/> Lezen </li>
+                                                                        <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                                        <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                                        <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                                        <li>20pt <input type="checkbox"/> Docent</li>
+                                                                </ul>
+                                                                <form>Vul het totaal aantal punten in:<br>
+                                                                    <input type="text" name="resultaat">
+                                                                </form>
+                                                                <br/>
+                                                                <Progress min="0" max="100" value="10">
+                                                                </Progress>
+                                                        </div>
+                                        
+                                                        <div class="onderdeel">
+                                                                <div class="titel">Voortgang in<br/> 
+                                                                    <div class="wit">Communication</div></div>
+                                                                    <ul class="lijsta">
+                                                                            <li>10pt <input type="checkbox"/> Lezen </li>
+                                                                            <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                                            <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                                            <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                                            <li>20pt <input type="checkbox"/> Docent</li>
+                                                                    </ul>
+                                                                    <form>Vul het totaal aantal punten in:<br>
+                                                                        <input type="text" name="resultaat">
+                                                                    </form>
+                                                                    <br/>
+                                                                    <Progress min="0" max="100" value="10">
+                                                                    </Progress>
+                                                            </div>
+                                                           
+                                                            <div class="onderdeel">
+                                                                    <div class="titel">Voortgang in<br/> 
+                                                                        <div class="wit">Problem solving</div></div>
+                                                                        <ul class="lijsta">
+                                                                                <li>10pt <input type="checkbox"/> Lezen </li>
+                                                                                <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                                                <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                                                <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                                                <li>20pt <input type="checkbox"/> Docent</li>
+                                                                        </ul>
+                                                                        <form>Vul het totaal aantal punten in:<br>
+                                                                            <input type="text" name="resultaat">
+                                                                        </form>
+                                                                        <br/>
+                                                                        <Progress min="0" max="100" value="10">
+                                                                        </Progress>
+                                                                </div>
+
+                                                                <div class="onderdeel">
+                                                                        <div class="titel">Voortgang in<br/> 
+                                                                            <div class="wit">Time management</div></div>
+                                                                            <ul class="lijsta">
+                                                                                    <li>10pt <input type="checkbox"/> Lezen </li>
+                                                                                    <li>10pt <input type="checkbox"/> Begrijpen </li>
+                                                                                    <li>20pt <input type="checkbox"/> Schrijven kort </li>
+                                                                                    <li>20pt <input type="checkbox"/> Schrijven lang </li>
+                                                                                    <li>20pt <input type="checkbox"/> Docent</li>
+                                                                            </ul>
+                                                                            <form>Vul het totaal aantal punten in:<br>
+                                                                                <input type="text" name="resultaat">
+                                                                            </form>
+                                                                            <br/>
+                                                                            <Progress min="0" max="100" value="10">
+                                                                            </Progress>
+                                                                    </div>   
+
+
+</div>   
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
